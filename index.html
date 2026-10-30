@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air India - Book Flights</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/fe185dde3d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#home">
+        <span class="logo-mark"></span>
+        AIR INDIA
+      </a>
+
+      <nav class="main-nav">
+        <a href="#book">Book & Manage</a>
+        <a href="#destinations">Where We Fly</a>
+        <a href="#experience">Air India Experience</a>
+        <a href="#club">Maharaja Club</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#support">Support</a>
+        <a class="sign-in" href="#signin">Sign In</a>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="booking-wrap" id="book">
+        <div class="booking-tabs">
+          <a class="active" href="#book">Book Flight</a>
+          <a href="#manage">Manage Booking</a>
+          <a href="#checkin">Check-in</a>
+          <a href="#status">Flight Status</a>
+        </div>
+
+        <div class="trip-options">
+          <label><input type="radio" name="trip" checked /> One Way</label>
+          <label><input type="radio" name="trip" /> Round Trip</label>
+          <label><input type="radio" name="trip" /> Multi City</label>
+        </div>
+
+        <div class="flight-fields">
+          <div class="field">
+            <span>FROM</span>
+            <strong>New Delhi</strong>
+            <small>DEL · Indira Gandhi International</small>
+          </div>
+
+          <div class="swap">⇄</div>
+
+          <div class="field">
+            <span>TO</span>
+            <strong>Mumbai</strong>
+            <small>BOM · Chhatrapati Shivaji International</small>
+          </div>
+
+          <div class="field">
+            <span>DEPARTURE</span>
+            <strong>12 Nov, 2026</strong>
+            <small>Thursday</small>
+          </div>
+
+          <div class="field">
+            <span>RETURN</span>
+            <strong>Add return</strong>
+            <small>Optional</small>
+          </div>
+
+          <div class="field">
+            <span>PASSENGERS & CLASS</span>
+            <strong>1 Adult</strong>
+            <small>Economy</small>
+          </div>
+
+          <a class="search-button" href="#deals">Search</a>
+        </div>
+
+        <div class="booking-note">
+          Explore special fares and offers on your next journey.
+        </div>
+      </section>
+
+      <section class="section deals-section" id="deals">
+        <div class="section-heading">
+          <div>
+            <h2>EXCLUSIVE DEALS</h2>
+            <p>
+              Discover exciting offers and make every journey more rewarding.
+            </p>
+          </div>
+          <a class="view-all" href="#deals">View all -></a>
+        </div>
+
+        <div class="deal-grid">
+          <a class="deal-card deal-one" href="#deals">
+            <span><i class="fa-solid fa-star"></i></span>
+            <strong>BANK<br />OFFERS</strong>
+            <small>Save more on flights</small>
+          </a>
+
+          <a class="deal-card deal-two" href="#deals">
+            <span><i class="fa-solid fa-percent"></i></span>
+            <strong>DISCOUNT<br />CODE</strong>
+            <small>Extra savings await</small>
+          </a>
+
+          <a class="deal-card deal-three" href="#deals">
+            <span><i class="fa-regular fa-circle-dot"></i></span>
+            <strong>LIMITED TIME<br />DEALS</strong>
+            <small>Book before they go</small>
+          </a>
+
+          <a class="deal-card deal-four" href="#deals">
+            <span><i class="fa-solid fa-diamond"></i></span>
+            <strong>SPECIAL<br />FARES</strong>
+            <small>Find your best fare</small>
+          </a>
+        </div>
+
+        <div class="quick-links">
+          <a href="#destinations">HOTELS <span>›</span></a>
+          <a href="#destinations">CAR BOOKINGS <span>›</span></a>
+          <a href="#experience">DUTY FREE <span>›</span></a>
+          <a href="#deals">GIFT CARD <span>›</span></a>
+        </div>
+      </section>
+
+      <section class="hero-banner">
+        <img src="./assets/photo-1512453979798-5ea266f8880c.avif" alt="" />
+
+        <div class="hero-copy">
+          <span class="giftban">AIR INDIA GIFT CARD</span>
+
+          <h1>
+            THIS FESTIVE SEASON<br />
+            GIVE THE GIFT OF TRAVEL
+          </h1>
+
+          <p>Make memories that take you places.</p>
+
+          <a class="red-button" href="#deals">Know More</a>
+        </div>
+      </section>
+
+      <section class="section destinations-section" id="destinations">
+        <div class="section-heading">
+          <div>
+            <h2>BOOK NONSTOP DIRECT FLIGHTS</h2>
+            <p>
+              Spend less time travelling and more time at your destination.
+              Explore our global network.
+            </p>
+          </div>
+
+          <a class="view-all" href="#destinations">View all -></a>
+        </div>
+
+        <div class="destination-grid">
+          <div class="destination-card">
+            <img
+              src="./assets/photo-1582510003544-4d00b7f74220.avif"
+              alt="Chennai"
+            />
+            <div class="destination-info">
+              <span>CHENNAI</span>
+              <small>Chennai International Airport (MAA)</small>
+            </div>
+          </div>
+
+          <div class="destination-card">
+            <img
+              src="./assets/photo-1570168007204-dfb528c6958f.avif"
+              alt="Mumbai"
+            />
+            <div class="destination-info">
+              <span>MUMBAI</span>
+              <small>Chhatrapati Shivaji Airport (BOM)</small>
+            </div>
+          </div>
+
+          <div class="destination-card">
+            <img
+              src="./assets/tokyo-pictures-rpel7dgyi3ueoos9.jpg"
+              alt="Tokyo"
+            />
+            <div class="destination-info">
+              <span>TOKYO</span>
+              <small>Narita International Airport (NRT)</small>
+            </div>
+          </div>
+
+          <div class="destination-card">
+            <img
+              src="./assets/photo-1496588152823-86ff7695e68f.avif"
+              alt="Bangkok"
+            />
+            <div class="destination-info">
+              <span>BANGKOK</span>
+              <small>Suvarnabhumi Airport (BKK)</small>
+            </div>
+          </div>
+
+          <div class="destination-card">
+            <img src="./assets/1659931.jpg" alt="Sydney" />
+            <div class="destination-info">
+              <span>SYDNEY</span>
+              <small>Sydney Airport (SYD)</small>
+            </div>
+          </div>
+
+          <div class="destination-card">
+            <img
+              src="./assets/photo-1512453979798-5ea266f8880c (1).avif"
+              alt="Dubai"
+            />
+            <div class="destination-info">
+              <span>DUBAI</span>
+              <small>Dubai International Airport (DXB)</small>
+            </div>
+          </div>
+
+          <div class="destination-card">
+            <img
+              src="./assets/photo-1508009603885-50cf7c579365.avif"
+              alt="New York"
+            />
+            <div class="destination-info">
+              <span>NEW YORK</span>
+              <small>John F. Kennedy Airport (JFK)</small>
+            </div>
+          </div>
+
+          <div class="destination-card">
+            <img
+              src="./assets/photo-1514395462725-fb4566210144.avif"
+              alt="Melbourne"
+            />
+            <div class="destination-info">
+              <span>MELBOURNE</span>
+              <small>Melbourne Airport (MEL)</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="plan-section">
+        <div class="section section-inner">
+          <div class="section-heading">
+            <div>
+              <h2>PLAN YOUR TRIP</h2>
+              <p>
+                Ready, set, travel! You focus on the journey; we'll take care of
+                the logistics.
+              </p>
+            </div>
+          </div>
+
+          <div class="plan-grid">
+            <div class="plan-card">
+              <img
+                src="./assets/photo-1488646953014-85cb44e25828.avif"
+                alt="Baggage Essentials"
+              />
+
+              <div class="plan-info">
+                <h3>BAGGAGE ESSENTIALS</h3>
+                <p>
+                  Travel light or with more baggage than you imagine. Baggage
+                  rules decoded.
+                </p>
+                <a href="#">Know More -></a>
+              </div>
+            </div>
+
+            <div class="plan-card">
+              <img
+                src="./assets/photo-1436491865332-7a61a109cc05.avif"
+                alt="Star Alliance"
+              />
+
+              <div class="plan-info">
+                <h3>STAR ALLIANCE</h3>
+                <p>A world of connectivity, connected to you.</p>
+                <a href="#">Know More -></a>
+              </div>
+            </div>
+
+            <div class="plan-card">
+              <img
+                src="./assets/photo-1596524430615-b46475ddff6e.avif"
+                alt="Contact Us"
+              />
+
+              <div class="plan-info">
+                <h3>CONTACT US</h3>
+                <p>
+                  Have a question about travelling? Our team is here to help.
+                </p>
+                <a href="#">Know More -></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="club-layout" id="club">
+            <div class="club-content">
+              <div class="club-brand">
+                MAHARAJA
+                <b>CLUB</b>
+              </div>
+
+              <h2>YOUR MEMBER BENEFITS</h2>
+
+              <p>
+                Join Maharaja Club and enjoy a world of rewards every time you
+                fly.
+              </p>
+
+              <div class="benefit-grid">
+                <article class="benefit">
+                  <h3>ACCELERATED EARNINGS</h3>
+                  <p>
+                    Earn points on flights and everyday spends with our
+                    partners.
+                  </p>
+                  <a href="#club">Know More -></a>
+                </article>
+
+                <article class="benefit">
+                  <h3>EFFORTLESS REDEMPTIONS</h3>
+                  <p>
+                    Redeem points for flights, upgrades and exciting rewards.
+                  </p>
+                  <a href="#club">Redeem Now -></a>
+                </article>
+
+                <article class="benefit">
+                  <h3>TIER BENEFITS</h3>
+                  <p>
+                    Enjoy priority services, lounge access and extra baggage.
+                  </p>
+                  <a href="#club">Explore Benefits -></a>
+                </article>
+
+                <article class="benefit">
+                  <h3>EXCLUSIVE MEMBER FARES</h3>
+                  <p>Unlock special fares and offers when you book directly.</p>
+                  <a href="#club">Book Now -></a>
+                </article>
+              </div>
+            </div>
+
+            <div class="club-promo">
+              <img
+                src="./assets/photo-1533105079780-92b9be482077.avif"
+                alt="Maharaja Club"
+              />
+
+              <div class="club-promo-content">
+                <h3>MAKE EVERY JOURNEY<br />MORE REWARDING</h3>
+                <p>Earn and redeem Maharaja Points</p>
+                <a href="#">Know More -></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section class="experience-section">
+
+    <div class="section">
+
+        <div class="section-heading">
+            <div>
+                <h2>THE AIR INDIA EXPERIENCE</h2>
+                <p>Discover a new way to fly with comfort, luxury and exceptional experiences.</p>
+            </div>
+        </div>
+
+        <div class="experience-grid">
+
+            <div class="experience-card">
+                <img src="./assets/photo-1540331547168-8b63109225b7.avif" alt="Premium Economy">
+                <div class="experience-info">
+                    <span>COMFORT IN THE SKIES</span>
+                    <h3>PREMIUM ECONOMY</h3>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <img src="./assets/photo-1542291026-7eec264c27ff.avif" alt="New Fleet">
+                <div class="experience-info">
+                    <span>EXPERIENCE OUR ALL-NEW FLEET</span>
+                    <h3>NEW FEELS GOOD</h3>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <img src="./assets/photo-1483985988355-763728e1935b.avif" alt="Zip Ahead">
+                <div class="experience-info">
+                    <span>TRAVEL SMARTER</span>
+                    <h3>ZIP AHEAD</h3>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <img src="./assets/photo-1436491865332-7a61a109cc05.avif" alt="Airbus A350">
+                <div class="experience-info">
+                    <span>GLOBAL TRAVEL, REIMAGINED</span>
+                    <h3>A350</h3>
+                </div>
+            </div>
+
+            <div class="experience-card">
+                <img src="./assets/istockphoto-989813732-170667a.jpg" alt="Air India Store">
+                <div class="experience-info">
+                    <span>SHOP ON THE GO</span>
+                    <h3>AIR INDIA E-STORE</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="app-section">
+
+    <div class="app-grid">
+
+    
+        <div class="app-side">
+
+            <div class="app-info">
+                <div class="app-icon"><i class="fa-solid fa-suitcase-rolling"></i></div>
+                <h3>SMART BAGGAGE<br>TRACKING</h3>
+                <p>Get real-time baggage updates directly on the Air India app.</p>
+            </div>
+
+            <div class="app-info rating">
+                <div class="app-logo"><i class="fa-solid fa-star"></i></div>
+                <div class="stars"><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <h2>4.8</h2>
+                <p>Appstore Ratings</p>
+            </div>
+
+        </div>
+
+        
+        <div class="app-main">
+            <img src="./assets/v2-iosapp-mob-web.avif" alt="Air India Digital Travel App">
+        </div>
+
+        <div class="app-side">
+
+            <div class="app-info">
+                <div class="aeye-logo"><i class="fa-regular fa-circle-dot"></i> AEYE<br>VISION</div>
+                <small>BY AIR INDIA</small>
+                <p>With AEYE Vision, you can just scan a QR code or barcode to track your bags, manage trips, and stay updated on flight status.</p>
+                <a href="#">Explore features</a>
+            </div>
+
+            <div class="app-info coupon">
+                <span class="download-label">D O W N L O A D A P P</span>
+                <h3>USE APPFIRST<br>FOR 5% OFF<br>FIRST BOOKING</h3>
+                <p>Book, manage and stay updated on your journey with the award-winning Air India mobile app.</p>
+                <div class="qr-placeholder"><i class="fa-solid fa-qrcode"></i></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="awards-section">
+
+    <h2>AWARDS</h2>
+
+    <div class="awards-grid">
+
+        <div class="award-card">
+            <div class="award-stars"></div>
+            <div class="laurel">
+                <span><i class="fa-solid fa-trophy"></i></span>
+            </div>
+            <p>Maharaja Club<br>Program of the Year<br>(Middle East & APAC)</p>
+            <small>Freddie Award 2026</small>
+        </div>
+
+        <div class="award-card">
+            <div class="award-stars"></div>
+            <div class="laurel">
+                <span><i class="fa-solid fa-trophy"></i></span>
+            </div>
+            <p>Four Star Airline<br>Rating</p>
+            <small>Skytrax</small>
+        </div>
+
+        <div class="award-card">
+            <div class="award-stars"></div>
+            <div class="laurel">
+                <span><i class="fa-solid fa-trophy"></i></span>
+            </div>
+            <p>Four Star Global<br>Airline 2025</p>
+            <small>Apex Award</small>
+        </div>
+
+        <div class="award-card">
+            <div class="award-stars"></div>
+            <div class="laurel">
+                <span><i class="fa-solid fa-trophy"></i></span>
+            </div>
+            <p>Experience Maker<br>of the Year 2025</p>
+            <small>Adobe Award</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer class="site-footer">
+
+    <div class="footer-container">
+
+        <div class="footer-links">
+
+            <div class="footer-column">
+                <h3>ABOUT US</h3>
+                <a href="#">About Air India</a>
+                <a href="#">Newsroom</a>
+                <a href="#">Corporate Information</a>
+                <a href="#">Safety</a>
+                <a href="#">Tenders</a>
+                <a href="#">Careers</a>
+
+                <h3 class="footer-subheading">AIR INDIA EXPERIENCE</h3>
+                <a href="#">At The Airport</a>
+                <a href="#">In The Air</a>
+                <a href="#">Transforming Experiences</a>
+                <a href="#">Our Fleet</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>BOOK & MANAGE</h3>
+                <a href="#">Search Flights</a>
+                <a href="#">Manage Booking</a>
+                <a href="#">Flight Schedule</a>
+                <a href="#">Cargo</a>
+
+                <h3 class="footer-subheading">MAHARAJA CLUB</h3>
+                <a href="#">About Maharaja Club</a>
+                <a href="#">Points Calculator</a>
+                <a href="#">Earn Points</a>
+                <a href="#">Redeem Points</a>
+                <a href="#">Maharaja Club FAQs</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>WHERE WE FLY</h3>
+                <a href="#">Route Map</a>
+                <a href="#">Non-stop Flights</a>
+                <a href="#">Alliances and Partnerships</a>
+                <a href="#">Popular Flights</a>
+
+                <h3 class="footer-subheading">SUPPORT</h3>
+                <a href="#">Contact</a>
+                <a href="#">Frequently Asked Questions</a>
+                <a href="#">Cybersecurity & Fraud Awareness</a>
+                <a href="#">Grievance Resolution</a>
+                <a href="#">EU/UK 261 Flight Compensation Claims</a>
+                <a href="#">Supplier Corner</a>
+                <a href="#">Mishandled Baggage Statement</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>PREPARE TO TRAVEL</h3>
+                <a href="#">Baggage Guidelines</a>
+                <a href="#">Airport Information</a>
+                <a href="#">First-time Travellers and Children</a>
+                <a href="#">Visas, Documents and Travel Tips</a>
+                <a href="#">Health and Medical Assistance</a>
+                <a href="#">Travelling with Pets</a>
+
+                <h3 class="footer-subheading">AIR INDIA APP</h3>
+                <p>Download The App To Book And Manage Your Flights On The Go.</p>
+                <div class="footer-qr">▦</div>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom-links">
+
+            <div>
+                <a href="#">Sitemap</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Accessibility Plan and Feedback Process</a>
+            </div>
+
+            <div>
+                <a href="#">Cookie Policy</a>
+                <a href="#">Cookie Settings</a>
+                <a href="#">Conditions of Carriage</a>
+                <a href="#">Domestic Fares</a>
+            </div>
+
+            <div>
+                <a href="#">Travel Agents</a>
+                <a href="#">GST</a>
+                <a href="#">Passenger Rights</a>
+                <a href="#">Disruption Statement</a>
+            </div>
+
+            <div class="social-column">
+                <h3>FOLLOW US ON</h3>
+
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="footer-disclaimer">
+
+            <p>
+                The content on this site may have been translated into other languages using automatic translation.
+                Any such translation is only for information and reference and is not authoritative.
+                We have made reasonable efforts to provide translations, but they may not be perfect.
+            </p>
+
+            <p>
+                For all content on the site, the English version is the authoritative version and will prevail
+                in case of any inconsistencies, inaccuracies or regulatory requirements.
+            </p>
+
+        </div>
+
+
+        <div class="footer-branding">
+
+            <div class="tata-logo">
+                <strong>TATA</strong>
+            </div>
+
+            <div class="brand-right">
+                <strong class="air-india-logo">AIR INDIA</strong>
+                <span>| STAR ALLIANCE ✥</span>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2026 Air India Ltd.</p>
+            <p>All rights reserved. Use of this website indicates your compliance with our Privacy Notice, Conditions of Carriage, Terms and Conditions.</p>
+        </div>
+
+    </div>
+
+</footer>
+  </body>
+</html>
